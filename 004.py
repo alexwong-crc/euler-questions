@@ -10,11 +10,7 @@ answer = 0
 
 
 def isPalindrome(num):
-    normal, reverse = [], []
-    normal.extend(str(num))
-    reverse = normal.copy()
-    reverse.reverse()
-    return normal == reverse
+    return str(num) == str(num)[::-1]
 
 
 for num1 in range1:
